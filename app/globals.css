@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(197, 138, 85, 0.18), transparent 32rem),
+    radial-gradient(circle at 80% 10%, rgba(90, 61, 38, 0.18), transparent 28rem),
+    linear-gradient(180deg, #11100e 0%, #17130f 48%, #0f0e0c 100%);
+  color: #f7efe3;
+}
+
+::selection {
+  background: #c58a55;
+  color: #17110c;
+}
+
+.studio-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #7a5a3e transparent;
+}
+
+.studio-scrollbar::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.studio-scrollbar::-webkit-scrollbar-thumb {
+  background: #7a5a3e;
+  border-radius: 999px;
+}
+
+.github-markdown {
+  color: #e9dfd2;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.github-markdown h1,
+.github-markdown h2,
+.github-markdown h3 {
+  border-bottom: 1px solid #3a3028;
+  color: #fff8ef;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  padding-bottom: 0.4rem;
+}
+
+.github-markdown h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.github-markdown h2 {
+  font-size: 1.35rem;
+}
+
+.github-markdown p,
+.github-markdown ul,
+.github-markdown pre {
+  margin-top: 1rem;
+}
+
+.github-markdown ul {
+  list-style: disc;
+  padding-left: 1.4rem;
+}
+
+.github-markdown a {
+  color: #e0ad78;
+  text-decoration: none;
+}
+
+.github-markdown code {
+  background: rgba(197, 138, 85, 0.16);
+  border-radius: 6px;
+  font-size: 0.9em;
+  padding: 0.15rem 0.35rem;
+}
+
+.github-markdown pre {
+  background: #0f0d0b;
+  border: 1px solid #3a3028;
+  border-radius: 8px;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.github-markdown pre code {
+  background: transparent;
+  padding: 0;
+}
