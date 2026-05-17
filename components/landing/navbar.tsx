@@ -7,7 +7,7 @@ export function Navbar() {
     <header className="sticky top-0 z-30 border-b border-border/70 bg-background/85 backdrop-blur-xl">
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
         <Link href="/" className="flex items-center gap-3 text-lg font-bold">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent text-accent-foreground shadow-lift">
+          <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent text-accent-foreground shadow-lift">
             <FileText className="h-5 w-5" />
           </span>
           ReadmeForge

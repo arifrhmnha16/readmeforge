@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.02fr_0.98fr] lg:py-24">
       <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }}>
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-accent-dark shadow-sm">
+        <div className="mb-6 inline-flex items-center gap-2 rounded-lg border border-border bg-card px-4 py-2 text-sm font-semibold text-accent-dark shadow-sm">
           <Sparkles className="h-4 w-4" />
           Premium README generator
         </div>
@@ -41,15 +41,15 @@ export function Hero() {
         initial={{ opacity: 0, y: 22 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.65, delay: 0.1 }}
-        className="rounded-[2rem] border border-border bg-card p-4 shadow-soft"
+        className="rounded-2xl border border-border bg-card p-3 shadow-soft"
       >
-        <div className="rounded-[1.35rem] border border-border bg-[#100e0c] p-6">
+        <div className="rounded-xl border border-border bg-[#080c11] p-6">
           <div className="mb-5 flex items-center justify-between border-b border-border pb-4">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.28em] text-accent">README.md</p>
               <h2 className="mt-2 text-2xl font-bold">Shotfolio</h2>
             </div>
-            <span className="rounded-full bg-accent-soft px-3 py-1 text-xs font-bold text-accent-dark">Live</span>
+            <span className="rounded-md bg-accent-soft px-3 py-1 text-xs font-bold text-accent-dark">Live</span>
           </div>
           <div className="space-y-5 text-sm leading-7 text-muted-foreground">
             <div>
@@ -58,19 +58,19 @@ export function Hero() {
             </div>
             <div className="flex flex-wrap gap-2">
               {["Next.js", "React", "TypeScript", "Tailwind CSS"].map((item) => (
-                <span key={item} className="rounded-full border border-border bg-card px-3 py-1 text-xs font-semibold">
+                <span key={item} className="rounded-md border border-border bg-card px-3 py-1 text-xs font-semibold">
                   {item}
                 </span>
               ))}
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               {["Live preview", "Device mockups", "PNG export", "Auto styling"].map((item) => (
-                <div key={item} className="rounded-xl border border-border bg-card p-3 font-medium text-foreground">
+                <div key={item} className="rounded-lg border border-border bg-card p-3 font-medium text-foreground">
                   {item}
                 </div>
               ))}
             </div>
-            <pre className="overflow-hidden rounded-xl border border-border bg-[#0b0a09] p-4 text-xs text-[#f7efe3]">
+            <pre className="overflow-hidden rounded-lg border border-border bg-[#05080c] p-4 text-xs text-[#dce6f2]">
               <code>npm install{"\n"}npm run dev</code>
             </pre>
           </div>

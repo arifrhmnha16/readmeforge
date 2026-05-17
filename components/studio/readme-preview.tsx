@@ -89,7 +89,7 @@ function renderMarkdown(markdown: string) {
 
 export function ReadmePreview({ markdown }: { markdown: string }) {
   return (
-    <div className="studio-scrollbar h-[calc(100vh-15rem)] min-h-[32rem] overflow-auto rounded-2xl border border-border bg-card p-6 shadow-sm">
+    <div className="studio-scrollbar h-[calc(100vh-15rem)] min-h-[32rem] overflow-auto rounded-xl border border-border bg-card p-6 shadow-sm">
       <article className="github-markdown" dangerouslySetInnerHTML={{ __html: renderMarkdown(markdown) }} />
     </div>
   );

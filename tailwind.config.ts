@@ -11,22 +11,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#11100e",
-        foreground: "#f7efe3",
-        muted: "#211d19",
-        "muted-foreground": "#b8aa9a",
-        border: "#332b24",
-        card: "#181512",
+        background: "#0b0f14",
+        foreground: "#f4f7fb",
+        muted: "#151c24",
+        "muted-foreground": "#9aa7b5",
+        border: "#27313c",
+        card: "#10161d",
         accent: {
-          DEFAULT: "#c58a55",
-          foreground: "#17110c",
-          soft: "#2d2118",
-          dark: "#e0ad78",
+          DEFAULT: "#8fb3ff",
+          foreground: "#07111f",
+          soft: "#17243a",
+          dark: "#b9cdfd",
         },
       },
       boxShadow: {
-        soft: "0 22px 70px rgba(0, 0, 0, 0.34)",
-        lift: "0 14px 38px rgba(0, 0, 0, 0.35)",
+        soft: "0 22px 70px rgba(0, 0, 0, 0.28)",
+        lift: "0 12px 34px rgba(18, 32, 51, 0.32)",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Inter", "ui-sans-serif", "system-ui"],

@@ -20,7 +20,7 @@ export function TemplateSelector({
           type="button"
           onClick={() => onChange(template)}
           className={cn(
-            "flex min-h-12 items-center justify-between rounded-xl border px-3.5 py-2.5 text-left text-sm font-semibold transition",
+            "flex min-h-12 items-center justify-between rounded-lg border px-3.5 py-2.5 text-left text-sm font-semibold transition",
             value === template
               ? "border-accent bg-accent-soft text-accent-dark"
               : "border-border bg-card text-foreground hover:bg-muted",

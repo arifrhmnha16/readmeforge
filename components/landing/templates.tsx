@@ -60,12 +60,12 @@ export function Templates() {
                 <p className="text-sm font-semibold text-accent">0{index + 1}</p>
                 <h3 className="mt-3 text-xl font-bold">{template.name}</h3>
               </div>
-              <span className="rounded-full border border-border bg-muted px-3 py-1 text-xs font-bold text-accent">
+              <span className="rounded-md border border-border bg-muted px-3 py-1 text-xs font-bold text-accent">
                 {template.badge}
               </span>
             </div>
             <p className="mt-4 min-h-20 leading-7 text-muted-foreground">{template.description}</p>
-            <div className="mt-6 rounded-xl border border-border bg-[#100e0c] p-4">
+            <div className="mt-6 rounded-lg border border-border bg-[#080c11] p-4">
               <div className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-muted-foreground">
                 <ArrowUpRight className="h-3.5 w-3.5 text-accent" />
                 README structure

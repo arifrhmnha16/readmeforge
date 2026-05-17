@@ -166,10 +166,10 @@ export function ReadmeForm({ data, onChange }: ReadmeFormProps) {
           ["github", "GitHub badge"],
           ["demo", "Demo button"],
         ].map(([key, label]) => (
-          <label key={key} className="flex items-center justify-between gap-4 rounded-xl border border-border bg-card p-3 text-sm font-semibold">
+          <label key={key} className="flex items-center justify-between gap-4 rounded-lg border border-border bg-card p-3 text-sm font-semibold">
             {label}
             <input
-              className="h-5 w-5 accent-[#c58a55]"
+              className="h-5 w-5 accent-[#8fb3ff]"
               type="checkbox"
               checked={data.badges[key as keyof typeof data.badges]}
               onChange={(event) => update("badges", { ...data.badges, [key]: event.target.checked })}

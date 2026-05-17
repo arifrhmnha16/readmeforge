@@ -72,7 +72,7 @@ export function StudioShell() {
       <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur-xl">
         <div className="mx-auto flex min-h-20 max-w-[92rem] flex-col gap-4 px-5 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div className="flex items-center gap-3">
-            <Link href="/" className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-accent-foreground shadow-lift">
+            <Link href="/" className="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground shadow-lift">
               <FileText className="h-5 w-5" />
             </Link>
             <div>
@@ -108,19 +108,19 @@ export function StudioShell() {
           transition={{ duration: 0.35 }}
           className="min-w-0"
         >
-          <div className="mb-4 flex flex-col gap-3 rounded-2xl border border-border bg-card p-4 shadow-soft md:flex-row md:items-center md:justify-between">
+          <div className="mb-4 flex flex-col gap-3 rounded-xl border border-border bg-card p-4 shadow-soft md:flex-row md:items-center md:justify-between">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.24em] text-accent">Export target</p>
               <h1 className="mt-1 text-2xl font-bold">README.md</h1>
             </div>
-            <div className="grid grid-cols-2 rounded-full border border-border bg-muted p-1">
+            <div className="grid grid-cols-2 rounded-lg border border-border bg-muted p-1">
               {(["Preview", "Markdown"] as Tab[]).map((tab) => (
                 <button
                   key={tab}
                   type="button"
                   onClick={() => setActiveTab(tab)}
                   className={cn(
-                    "h-10 rounded-full px-5 text-sm font-bold transition",
+                    "h-10 rounded-md px-5 text-sm font-bold transition",
                     activeTab === tab ? "bg-card text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground",
                   )}
                 >

@@ -12,20 +12,23 @@ html {
 
 body {
   background:
-    radial-gradient(circle at top left, rgba(197, 138, 85, 0.18), transparent 32rem),
-    radial-gradient(circle at 80% 10%, rgba(90, 61, 38, 0.18), transparent 28rem),
-    linear-gradient(180deg, #11100e 0%, #17130f 48%, #0f0e0c 100%);
-  color: #f7efe3;
+    linear-gradient(rgba(143, 179, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(143, 179, 255, 0.035) 1px, transparent 1px),
+    radial-gradient(circle at 18% 0%, rgba(143, 179, 255, 0.18), transparent 32rem),
+    radial-gradient(circle at 86% 14%, rgba(88, 166, 255, 0.08), transparent 28rem),
+    linear-gradient(180deg, #0b0f14 0%, #0e131a 52%, #090d12 100%);
+  background-size: 42px 42px, 42px 42px, auto, auto, auto;
+  color: #f4f7fb;
 }
 
 ::selection {
-  background: #c58a55;
-  color: #17110c;
+  background: #8fb3ff;
+  color: #07111f;
 }
 
 .studio-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: #7a5a3e transparent;
+  scrollbar-color: #43546a transparent;
 }
 
 .studio-scrollbar::-webkit-scrollbar {
@@ -34,12 +37,12 @@ body {
 }
 
 .studio-scrollbar::-webkit-scrollbar-thumb {
-  background: #7a5a3e;
+  background: #43546a;
   border-radius: 999px;
 }
 
 .github-markdown {
-  color: #e9dfd2;
+  color: #dce6f2;
   font-size: 15px;
   line-height: 1.7;
 }
@@ -47,8 +50,8 @@ body {
 .github-markdown h1,
 .github-markdown h2,
 .github-markdown h3 {
-  border-bottom: 1px solid #3a3028;
-  color: #fff8ef;
+  border-bottom: 1px solid #27313c;
+  color: #f4f7fb;
   font-weight: 700;
   margin-top: 1.5rem;
   padding-bottom: 0.4rem;
@@ -75,20 +78,20 @@ body {
 }
 
 .github-markdown a {
-  color: #e0ad78;
+  color: #8fb3ff;
   text-decoration: none;
 }
 
 .github-markdown code {
-  background: rgba(197, 138, 85, 0.16);
+  background: rgba(143, 179, 255, 0.13);
   border-radius: 6px;
   font-size: 0.9em;
   padding: 0.15rem 0.35rem;
 }
 
 .github-markdown pre {
-  background: #0f0d0b;
-  border: 1px solid #3a3028;
+  background: #080c11;
+  border: 1px solid #27313c;
   border-radius: 8px;
   overflow: auto;
   padding: 1rem;
